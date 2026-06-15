@@ -8,6 +8,8 @@
         <meta property="og:title" content="Новый продукт!">
         <meta property="og:type" content="article">
         <meta property="og:image" content="https://avatarko.ru/img/kartinka/1/Crazy_Frog.jpg">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
         <meta property="og:description" content="Страница сайта из моего второго задания">
         <title>Second task</title>
     </head>
