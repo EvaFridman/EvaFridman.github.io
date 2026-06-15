@@ -50,7 +50,7 @@
                 <img src="https://avatarko.ru/img/kartinka/1/Crazy_Frog.jpg" alt="Наше лого">
                 <figcaption>Такое вот лого</figcaption>
             </figure>
-            <time datetime="2026">2027 год</time>
+            <time datetime="2026">2026 год</time>
         </footer>
     </body>
 </html>
