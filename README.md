@@ -3,54 +3,154 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Страница сайта из моего второго задания">
-        <meta property="og:title" content="Новый продукт!">
-        <meta property="og:type" content="article">
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image" content="https://static.independent.co.uk/2021/12/10/13/newFile.jpg?width=1200&height=630&fit=crop">
-        <meta property="og:description" content="Страница сайта из моего второго задания">
-        <title>Second task</title>
+        <title>First form</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Страница 1</a></li>
-                    <li><a href="index.html">Страница 2</a></li>
-                    <li><a href="index.html">Страница 3</a></li>
-                </ul>
-            </nav>
-        </header>
+        <header></header>
         <main>
-            <article>
-                <h1>Наш новый продукт</h1>
-                <section>
-                    <h2>О продукте</h2>
-                    <p>Продукт крутой</p>
-                </section>
-                <section>
-                    <h2>Тарифы</h2>
-                    <p>У нас всего один тариф - 100р/м</p>
-                    <h3>Скидки</h3>
-                    <p>Скидок нет</p>
-                </section>
-            </article>
-            <aside>
-                <p>Наши партнёры:</p>
-                <ul>
-                    <li>Сбер</li>
-                    <li>Тбанк</li>
-                    <li>Ещё кто-то</li>
-                </ul>
-            </aside>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Основные данные</legend>
+
+                    <label for="username">Имя пользователя</label>
+                    <input 
+                        type="text"
+                        id="username"
+                        name="username"
+                        placeholder="Введите имя пользователя"
+                        minlength="3"
+                        maxlength="30"
+                        autocomplete="username"
+                        required
+                    />
+                    <hr>
+
+                    <label for="email">Электронная почта</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="exaple@gmail.com"
+                        autocomplete="email"
+                        required
+                    />
+                    <hr>
+
+                    <label for="password">Пароль</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Введите пароль"
+                        minlength="7"
+                        autocomplete="new-password"
+                        required
+                    />
+                    <hr>
+
+                    <label for="phone">Телефон</label>
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        pattern="\+?7\d{10}"
+                        placeholder="+7 (999) 999-99-99"
+                        autocomplete="tel"
+                        required
+                    />
+                    <hr>
+
+                    <label>Возраст</label>
+                    <input
+                        type="number"
+                        id="age"
+                        name="age"
+                        placeholder="Введите возраст"
+                        min="18"
+                        max="110"
+                    />
+                    <hr>
+
+                    <label for="birthdate">Дата рождения</label>
+                    <input type="date" id="birthdate" name="birthdate" />
+                    <hr>
+
+                    <label for="website">Сайт</label>
+                    <input
+                        type="url"
+                        id="website"
+                        name="website"
+                        placeholder="https://example.com"
+                    />
+                    <hr>
+
+                    <label for="search">Поиск</label>
+                    <input
+                        type="search"
+                        id="search"
+                        name="search"
+                        placeholder="Введите запрос"
+                    />
+                </fieldset>
+
+                <fieldset>
+                    <legend>Дополнительные данные</legend>
+
+                    <label for="mood">Настроение от 1 до 100</label>
+                    <input
+                        type="range"
+                        id="mood"
+                        name="mood"
+                        min="1"
+                        max="100"
+                        step="1"
+                        value="50"
+                    />
+                    <hr>
+
+                    <label for="favoriteColor">Любимый цвет</label>
+                    <input type="color" id="favoriteColor" name="favoriteColor" value="#ff0000">
+                    <hr>
+
+                    <label for="photo">Ваше фото</label>
+                    <input type="file" id="photo" name="photo" accept="image/*">
+                    <hr>
+
+                    <input type="hidden" name="userId" value="12345">
+
+                    <label id="about">О себе</label>
+                    <textarea id="about" name="about" rows="4" cols="50" placeholder="Расскажите о себе">
+                    </textarea>
+                    <hr>
+
+                    <label>Страна</label>
+                    <select id="country" name="country">
+                        <option value="" selected>Выберите страну</option>
+                        <option value="russia">Россия</option>
+                        <option value="usa">США</option>
+                        <option value="germany">Германия</option>
+                        <option value="france">Франция</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Любимые овощи</legend>
+                    <label><input type="radio" name="veg" value="cucumber">Огурец</label>
+                    <label><input type="radio" name="veg" value="tomato">Помидор</label>
+                    <label><input type="radio" name="veg" value="potato">Картошка</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Согласия</legend>
+                    <label for="policy">Согласен с политикой</label>
+                    <input type="checkbox" id="policy" name="policy" required>
+                    <label for="terms">Согласен с условиями</label>
+                    <input type="checkbox" id="terms" name="terms" required>
+                </fieldset>
+
+                <button type="submit">Отправить</button>
+                <button type="reset">Сбросить</button>
+            </form>
         </main>
-        <footer>
-            <figure>
-                <img src="https://static.independent.co.uk/2021/12/10/13/newFile.jpg?width=1200&height=630&fit=crop" alt="Наше лого">
-                <figcaption>Такое вот лого</figcaption>
-            </figure>
-            <time datetime="2026">2026 год</time>
-        </footer>
+        <footer></footer>
     </body>
-</html>
