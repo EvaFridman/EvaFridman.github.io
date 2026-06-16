@@ -8,7 +8,7 @@
         <meta property="og:type" content="article">
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:image" content="https://avatarko.ru/img/kartinka/1/Crazy_Frog.jpg">
+        <meta property="og:image" content="https://static.independent.co.uk/2021/12/10/13/newFile.jpg?width=1200&height=630&fit=crop">
         <meta property="og:description" content="Страница сайта из моего второго задания">
         <title>Second task</title>
     </head>
@@ -47,7 +47,7 @@
         </main>
         <footer>
             <figure>
-                <img src="https://avatarko.ru/img/kartinka/1/Crazy_Frog.jpg" alt="Наше лого">
+                <img src="https://static.independent.co.uk/2021/12/10/13/newFile.jpg?width=1200&height=630&fit=crop" alt="Наше лого">
                 <figcaption>Такое вот лого</figcaption>
             </figure>
             <time datetime="2026">2026 год</time>
