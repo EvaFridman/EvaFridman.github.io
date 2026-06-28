@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Cadence помогает выстроить привычки и удержать внимание — мягкими ритмами фокуса вместо жёстких дедлайнов.">
+        <meta property="og:title" content="Cadence. Сфокусируйся. Войди в ритм.">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="preview.webp">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta property="og:description" content="Cadence помогает выстроить привычки и удержать внимание — мягкими ритмами фокуса вместо жёстких дедлайнов.">
+        <title>Cadence. Сфокусируйся. Войди в ритм.</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <a class="skip-link" href="#main">Перейти к содержимому</a>
+        <header>
+            <div class="header-logo-name">
+                <div class="header-logo-container" aria-label="Лого">
+                    <div class="header-logo"></div>
+                </div>
+                <span>Cadence</span>
+            </div>
+        
+            <nav class="only-mobile">
+                <details class="burger-menu">
+                    <summary class="burger-btn" aria-label="Открыть меню">
+                        <span class="burger-lines"></span>
+                    </summary>
+                    <div class="burger-content">
+                        <ul>
+                            <li><a href="#instruments">Возможности</a></li>
+                            <li><a href="#tarifs">Тарифы</a></li>
+                            <li><a href="#questions">Вопросы</a></li>
+                        </ul>
+                        <div class="nav-bottom">
+                            <input type="checkbox" class="theme-checkbox" id="theme-toggle" aria-label="Переключить тему">
+                            <label for="theme-toggle" class="theme-slider">
+                                <span class="theme-icon-sun" aria-hidden="true">☀</span>
+                                <span class="theme-icon-moon" aria-hidden="true">☾</span>
+                            </label>
+                            <label for="popup-toggle-1" class="open-btn-1" role="button">Начать</label>
+                        </div>
+                    </div>
+                </details>
+            </nav>
+        
+            <nav class="desktop-tablet">
+                <ul>
+                    <li><a href="#instruments">Возможности</a></li>
+                    <li><a href="#tarifs">Тарифы</a></li>
+                    <li><a href="#questions">Вопросы</a></li>
+                </ul>
+            </nav>
+        
+            <div class="header-buttons desktop-tablet">
+                <input type="checkbox" class="theme-checkbox" id="theme-toggle-2" aria-label="Переключить тему">
+                <label for="theme-toggle-2" class="theme-slider">
+                    <span class="theme-icon-sun" aria-hidden="true">☀</span>
+                    <span class="theme-icon-moon" aria-hidden="true">☾</span>
+                </label>
+                <label for="popup-toggle-7" class="open-btn-7" role="button">Начать</label>
+            </div>
+        
+            <input type="checkbox" id="popup-toggle-1" class="popup-checkbox">
+            <div class="popup-overlay">
+                <div class="popup-content">
+                    <label for="popup-toggle-1" class="close-btn" role="button" aria-label="Закрыть окно">&times;</label>
+                    <h3>Ранний доступ</h3>
+                    <p>Оставь e-mail — пришлём приглашение и советы по фокусу.</p>
+                    <form class="subscription-form">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="[email protected]" autocomplete="email" required>
+                        <p aria-live="polite" class="email-error">Введите корректный e-mail</p>
+                        <button type="submit">Подписаться</button>
+                    </form>
+                </div>
+            </div>
+        
+            <input type="checkbox" id="popup-toggle-7" class="popup-checkbox">
+            <div class="popup-overlay">
+                <div class="popup-content">
+                    <label for="popup-toggle-7" class="close-btn" role="button" aria-label="Закрыть окно">&times;</label>
+                    <h3>Ранний доступ</h3>
+                    <p>Оставь e-mail — пришлём приглашение и советы по фокусу.</p>
+                    <form class="subscription-form">
+                        <label for="email-7">Email</label>
+                        <input type="email" id="email-7" name="email" placeholder="[email protected]" autocomplete="email" required>
+                        <p aria-live="polite" class="email-error">Введите корректный e-mail</p>
+                        <button type="submit">Подписаться</button>
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <main id="main">
+
+            <section class="main-info">
+                <div class="info">
+                    <div class="new-ritm">
+                        <span class="pulse-dot"></span>
+                        <span class="desktop-tablet">Новый ритм продуктивности</span>
+                        <span class="only-mobile">Новый ритм</span>
+                    </div>
+                    <h1>
+                        Сфокусируйся.
+                        <br class="desktop-tablet">
+                        Войди в ритм.
+                    </h1>
+                    <p class="only-desktop">Cadence помогает выстроить привычки и удержать внимание — мягкими ритмами фокуса вместо жёстких дедлайнов.</p>
+                    <p class="info-p only-tablet">Привычки и внимание — мягкими ритмами фокуса вместо жёстких дедлайнов.</p>
+                    <p class="info-p only-mobile">Привычки и внимание — мягкими ритмами фокуса.</p>
+                    <div class="info-buttons">
+                        <label for="popup-toggle-2" class="open-btn-2 desktop-mobile">Попробовать бесплатно</label>
+                        <label for="popup-toggle-2" class="open-btn-2 only-tablet">Попробовать</label>
+                        <input type="checkbox" id="popup-toggle-2" class="popup-checkbox">
+                        <div class="popup-overlay">
+                            <div class="popup-content">
+                                <label for="popup-toggle-2" class="close-btn" role="button" aria-label="Закрыть окно">&times;</label>
+                                <h3>Ранний доступ</h3>
+                                <p>Оставь e-mail — пришлём приглашение и советы по фокусу.</p>
+                                <form class="subscription-form">
+                                    <label for="email-2">Email</label>
+                                    <input type="email" id="email-2" name="email" placeholder="[email protected]" autocomplete="email" required>
+                                    <p aria-live="polite" class="email-error">Введите корректный e-mail</p>
+                                    <button type="submit">Подписаться</button>
+                                </form>
+                            </div>
+                        </div>
+                        <button class="demo desktop-mobile">Смотреть демо</button>
+                        <button class="demo only-tablet">Демо</button>
+                    </div>
+                </div>
+
+                <div class="info-abstract-geometry">
+                    <div class="full-circle"></div>
+                    <div class="empty-circle only-desktop"></div>
+                    <div class="rotated-square"></div>
+                </div>
+            </section>
+
+            <section class="statistics">
+                <div>
+                    <span class="statistics-number">10k +</span>
+                    <span class="statistics-caption">пользователей</span>
+                </div>
+                <div class="stripe only-desktop"></div>
+                <div>
+                    <span class="statistics-number"> 4.9</span>
+                    <span class="statistics-caption">рейтинг</span>
+                </div>
+                <div class="stripe only-desktop"></div>
+                <div>
+                    <span class="statistics-number">1.2М</span>
+                    <span class="statistics-caption">сессий</span>
+                </div>
+                <div class="stripe only-desktop"></div>
+                <div>
+                    <span class="statistics-number">120+</span>
+                    <span class="statistics-caption">стран</span>
+                </div>
+            </section>
+
+            <section class="instruments" id="instruments">
+                <h2 class="desktop-tablet">Всё для ровного ритма</h2>
+                <h2 class="only-mobile">Всё для ритма</h2>
+                <p class="only-desktop">Простые инструменты, которые не мешают, а помогают.</p>
+
+                <div class="card focus-timer">
+                    <div class="focus-icon-container"><div class="focus-icon"></div></div>
+                    <h3>Таймер фокуса</h3>
+                    <p class="desktop-mobile">Мягкие интервалы вместо жёсткого «помодоро».</p>
+                    <p class="only-tablet">Мягкие интервалы</p>
+                </div>
+
+                <div class="card habits">
+                    <div class="habits-icon-container"><div class="habits-icon"></div></div>
+                    <h3>Привычки</h3>
+                    <p class="only-desktop">Серии и стрики, которые держат мотивацию без давления и лишнего шума на экране.</p>
+                    <p class="only-tablet">Серии и стрики</p>
+                    <p class="only-mobile">Серии и стрики без давления</p>
+                </div>
+
+                <div class="card analitics">
+                    <div class="analitics-icon-container"><div class="analitics-icon"></div></div>
+                    <h3>Аналитика</h3>
+                    <p class="desktop-mobile">Видишь свой ритм за неделю.</p>
+                    <p class="only-tablet">Ритм за неделю</p>
+                </div>
+
+                <div class="card silent desktop-tablet">
+                    <div class="silent-icon-container"><div class="silent-icon"></div></div>
+                    <h3>Тихие режимы</h3>
+                    <p class="only-desktop">Блокируешь отвлечения на время сессии одним движением.</p>
+                    <p class="only-tablet">Меньше отвлечений</p>
+                </div>
+
+                <div class="card sync only-desktop">
+                    <div class="sync-icon-container"><div class="sync-icon"><div></div><div></div><div></div></div></div>
+                    <h3>Синхронизация</h3>
+                    <p>Один ритм на всех устройствах.</p>
+                </div>
+
+                <div class="card notifications only-desktop">
+                    <div class="notifications-icon-container"><div class="notifications-icon"></div></div>
+                    <h3>Напоминания</h3>
+                    <p>Деликатные подсказки в нужный момент дня, без навязчивости.</p>
+                </div>
+            </section>
+
+            <section class="how-it-works only-desktop">
+                <div class="how-it-works-info">
+                    <h2>Как это работает</h2>
+                    <p>Три шага до первого ритма.</p>
+                </div>
+
+                <div class="aim">
+                    <div>1</div>
+                    <h3>Поставь цель</h3>
+                    <p>Выбери привычку и желаемый ритм.</p>
+                </div>
+
+                <div class="start-session">
+                    <div>2</div>
+                    <h3>Запусти сессию</h3>
+                    <p>Включи таймер фокуса и тихий режим.</p>
+                </div>
+
+                <div class="hold-ritm">
+                    <div>3</div>
+                    <h3>Держи ритм</h3>
+                    <p>Возвращайся каждый день — серия растёт.</p>
+                </div>
+            </section>
+
+            <section class="team only-desktop">
+                <div class="team-info">
+                    <h2>Знакомься с командой</h2>
+                    <p>Наведи на карточку — она перевернётся и покажет обратную сторону. На клавиатуре — через фокус.</p>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-inner">
+                        <div class="team-card-front">
+                            <div></div>
+                            <h4>Мира Л.</h4>
+                            <p>Продукт-дизайнер</p>
+                            <small>↻ наведи, чтобы перевернуть</small>
+                        </div>
+                        <div class="team-card-back">
+                            <p>«Ритм важнее силы воли.»</p>
+                            <p>7 лет в дизайне.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tarifs" id="tarifs">
+                <h2>Тарифы</h2>
+                <p class="tarifs-description only-desktop">Начни бесплатно. Перейди, когда будешь готов.</p>
+
+                <div class="tarif-start">
+                    <p class="tarif-name">Старт</p>
+                    <p class="price">₽0</p>
+                    <p class="forever-bage only-desktop">навсегда</p>
+                    <ul class="only-desktop">
+                        <li><span class="green">✓</span> Таймер фокуса</li>
+                        <li><span class="green">✓</span> 3 привычки</li>
+                        <li><span class="green">✓</span> Базовая аналитика</li>
+                    </ul>
+                    <div class="popup-toggle-3-container">
+                        <label for="popup-toggle-3" class="open-btn-3 desktop-mobile hover-text"><span>Выбрать</span></label>
+                        <label for="popup-toggle-3" class="open-btn-3 only-tablet">Выбрать</label>
+                    </div>
+                    <input type="checkbox" id="popup-toggle-3" class="popup-checkbox">
+                    <div class="popup-overlay">
+                        <div class="popup-content">
+                            <label for="popup-toggle-3" class="close-btn" role="button" aria-label="Закрыть окно">&times;</label>
+                            <h3>Ранний доступ</h3>
+                            <p>Оставь e-mail — пришлём приглашение и советы по фокусу.</p>
+                            <form class="subscription-form">
+                                <label for="email-3">Email</label>
+                                <input type="email" id="email-3" name="email" placeholder="[email protected]" autocomplete="email" required>
+                                <p aria-live="polite" class="email-error">Введите корректный e-mail</p>
+                                <button type="submit">Подписаться</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarif-ritm">
+                    <p class="ritm-bage">Рекомендуем</p>
+                    <p class="tarif-name">Ритм</p>
+                    <p class="price">₽390</p>
+                    <p class="only-desktop">в месяц</p>
+                    <ul class="only-desktop">
+                        <li><span class="green">✓</span> Безлимит привычек</li>
+                        <li>
+                            <span class="green">✓</span> Глубокая аналитика
+                            <div class="tooltip-container" aria-describedby="analytics-tip">
+                                <span class="tooltip-trigger">?</span>
+                                <span class="analytics-tip" id="analytics-tip">Тренды за месяцы, экспорт CSV и сравнение ритмов по дням.</span>
+                            </div>
+                        </li>
+                        <li><span class="green">✓</span> Тихие режимы</li>
+                    </ul>
+                    <div class="popup-toggle-4-contaner">
+                        <label for="popup-toggle-4" class="open-btn-4 desktop-mobile hover-text"><span>Выбрать</span></label>
+                        <label for="popup-toggle-4" class="open-btn-4 only-tablet">Выбрать</label>
+                    </div>
+                    <input type="checkbox" id="popup-toggle-4" class="popup-checkbox">
+                    <div class="popup-overlay">
+                        <div class="popup-content">
+                            <label for="popup-toggle-4" class="close-btn" role="button" aria-label="Закрыть окно">&times;</label>
+                            <h3>Ранний доступ</h3>
+                            <p>Оставь e-mail — пришлём приглашение и советы по фокусу.</p>
+                            <form class="subscription-form">
+                                <label for="email-4">Email</label>
+                                <input type="email" id="email-4" name="email" placeholder="[email protected]" autocomplete="email" required>
+                                <p aria-live="polite" class="email-error">Введите корректный e-mail</p>
+                                <button type="submit">Подписаться</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarif-team only-desktop">
+                    <p class="tarif-name">Команда</p>
+                    <p class="price">₽990</p>
+                    <p>в месяц</p>
+                    <ul>
+                        <li><span class="green">✓</span> Всё из «Ритм»</li>
+                        <li><span class="green">✓</span> Общие цели</li>
+                        <li><span class="green">✓</span> Админ-панель</li>
+                    </ul>
+                    <div class="popup-toggle-5-container">
+                        <label for="popup-toggle-5" class="open-btn-5 hover-text">Выбрать</label>
+                    </div>
+                    <input type="checkbox" id="popup-toggle-5" class="popup-checkbox">
+                    <div class="popup-overlay">
+                        <div class="popup-content">
+                            <label for="popup-toggle-5" class="close-btn" role="button" aria-label="Закрыть окно">&times;</label>
+                            <h3>Ранний доступ</h3>
+                            <p>Оставь e-mail — пришлём приглашение и советы по фокусу.</p>
+                            <form class="subscription-form">
+                                <label for="email-5">Email</label>
+                                <input type="email" id="email-5" name="email" placeholder="[email protected]" autocomplete="email" required>
+                                <p aria-live="polite" class="email-error">Введите корректный e-mail</p>
+                                <button type="submit">Подписаться</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="questions" id="questions">
+                <h2 class="desktop-tablet">Частые вопросы</h2>
+                <h2 class="only-mobile">Вопросы</h2>
+
+                <details class="q1">
+                    <summary>
+                        <span class="only-desktop">Нужна ли карта для пробного периода?</span>
+                        <span class="tablet-mobile">Нужна ли карта?</span>
+                    </summary>
+                    <p class="only-desktop">Нет. 14 дней бесплатно без карты — подключишь оплату, только если решишь остаться.</p>
+                    <p class="tablet-mobile">Нет, 14 дней без карты.</p>
+                </details>
+
+                <details class="q2">
+                    <summary>
+                        <span class="only-desktop">Можно ли отменить в любой момент?</span>
+                        <span class="tablet-mobile">Можно отменить?</span>
+                    </summary>
+                    <p>Да</p>
+                </details>
+
+                <details class="q3">
+                    <summary>
+                        <span class="only-desktop">Есть ли версия для команды?</span>
+                        <span class="tablet-mobile">Версия для команды?</span>
+                    </summary>
+                    <p>Есть</p>
+                </details>
+
+                <details class="q4 only-desktop">
+                    <summary>На каких устройствах работает?</summary>
+                    <p>На всех</p>
+                </details>
+
+                <details class="q5 only-desktop">
+                    <summary>Как устроена аналитика?</summary>
+                    <p>Хорошо</p>
+                </details>
+            </section>
+
+            <section class="subscribe desktop-mobile">
+                <h2 class="only-desktop">Поймай свой ритм сегодня</h2>
+                <h2 class="only-mobile">Поймай свой ритм</h2>
+                <p class="only-desktop">Подпишись на ранний доступ и советы по фокусу.</p>
+                <p class="only-mobile">Подпишись на ранний доступ.</p>
+                <label for="popup-toggle-6" class="open-btn-6">Подписаться</label>
+                <input type="checkbox" id="popup-toggle-6" class="popup-checkbox">
+                <div class="popup-overlay">
+                    <div class="popup-content">
+                        <label for="popup-toggle-6" class="close-btn" role="button" aria-label="Закрыть окно">&times;</label>
+                        <h3>Ранний доступ</h3>
+                        <p>Оставь e-mail — пришлём приглашение и советы по фокусу.</p>
+                        <form class="subscription-form">
+                            <label for="email-6">Email</label>
+                            <input type="email" id="email-6" name="email" placeholder="[email protected]" autocomplete="email" required>
+                            <p aria-live="polite" class="email-error">Введите корректный e-mail</p>
+                            <button type="submit">Подписаться</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+
+            <section class="footer-info">
+                <div class="footer-logo-name">
+                    <div class="footer-logo-container only-desktop" aria-label="Лого">
+                        <div class="footer-logo"></div>
+                    </div>
+                    <span>Cadence</span>
+                </div>
+                <p class="only-desktop">Ритм фокуса и привычек для спокойной продуктивности.</p>
+                <p class="tablet-mobile">Ритм фокуса и привычек.</p>
+            </section>
+
+            <section class="product">
+                <h5>Продукт</h5>
+                <span>Возможности</span>
+                <span>Тарифы</span>
+                <span class="desktop-mobile">Обновления</span>
+            </section>
+
+            <section class="company only-desktop">
+                <h5>Компания</h5>
+                <span>О нас</span>
+                <span>Блог</span>
+                <span>Контакты</span>
+            </section>
+
+            <section class="support only-desktop">
+                <h5>Поддержка</h5>
+                <span>Помощь</span>
+                <span>Статус</span>
+                <span>Конфиденциальность</span>
+            </section>
+
+            <section class="time-calm">
+                <time datetime="2026-06-26" class="only-desktop">© 2026 Cadence. Все права защищены.</time>
+                <time datetime="2026-06-26" class="only-tablet">© 2026 Cadence</time>
+                <time datetime="2026-06-26" class="only-mobile">© 2026 Cadence</time>
+                <span class="only-desktop">Сделано спокойно</span>
+            </section>
+        </footer>
+        <a href="#" class="scroll-up desktop-mobile" aria-label="Наверх">▲</a>
+    </body>
+</html>

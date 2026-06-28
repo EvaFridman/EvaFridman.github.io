@@ -1,0 +1,75 @@
+:root {
+    /* Color variables for light theme */
+    --primary: #2563eb;
+    --primary-hover: #1d4ed8;
+    --bg: #f8fafc;
+    --surface: #ffffff;
+    --surface-2: #f1f5f9;
+    --text: #0f172a;
+    --text-mutted: #64748b;
+    --border: #e2e8f0;
+    --success: #16a34a;
+    --danger: #dc2626;
+    --decoration-bg: #eff6ff;
+    --decoration-border: #93c5fd;
+
+    /* Font size viriables */
+    --text-4xl: 49px; /* Крупный заголовок */
+    --text-3xl: 39px; /* Заголовок секции */
+    --text-2xl: 31px; /* Подзаголовок */
+    --text-xl: 25px; /* Карточка */
+    --text-lg: 20px; /* Крупный текст */
+    --text-base: 16px; /* Основной текст параграфа. */
+    --text-sm: 14px; /* Вторичный текст, подписи к полям. */
+    --text-xs: 13px; /* Метки, бейджи, мелкие подписи. */
+
+    /* Spacing sizes */
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-6: 24px;
+    --space-8: 32px;
+    --space-12: 48px;
+    --space-16: 64px;
+
+    /* Radius */
+    --sm: 8px;
+    --md: 14px;
+    --lg: 24px;
+    --pill: 50%;
+
+    /* Shadows for light theme */
+    --shadow-sm:
+        0 1px 2px rgba(0, 0, 0, 0.06),
+        0 1px 1px rgba(0, 0, 0, 0.03);
+
+    --shadow-md:
+        0 4px 12px rgba(0, 0, 0, 0.08),
+        0 2px 4px rgba(0, 0, 0, 0.04);
+
+    --shadow-lg:
+        0 12px 24px rgba(0, 0, 0, 0.12),
+        0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+:root:has(.theme-checkbox:checked) {
+    /* Color variables for dark theme */
+    --primary: #3b82f6;
+    --primary-hover: #60a5fa;
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --surface-2: #334155;
+    --text: #f1f5f9;
+    --text-muted: #94a3b8;
+    --border: #334155;
+    --success: #22c55e;
+    --danger: #ef4444;
+    --decoration-bg: #3b82f61f;
+    --decoration-border: #1e3a8a;
+
+    /* Shadows for dark theme */
+    --shadow-light-sm: 0 1px 3px rgba(255, 255, 255, 0.05);
+    --shadow-light-md: 0 4px 12px rgba(255, 255, 255, 0.08);
+    --shadow-light-lg: 0 12px 24px rgba(255, 255, 255, 0.12);
+}
